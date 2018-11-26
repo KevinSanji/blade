@@ -4,9 +4,9 @@ var sass = require('gulp-sass');
 var sassFiles = 'src/*scss',
     cssDest = 'dist/';
 
-gulp.task('watch'), function() {
+gulp.task('watch', function() {
   gulp.watch(sassFiles, gulp.series('styles'));
-});
+})
 
 gulp.task('styles', function() {
   return gulp.src(sassFiles)
