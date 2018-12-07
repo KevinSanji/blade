@@ -15,6 +15,18 @@
 
 // Grid
 
+$total = 12;
+$gap = 10px;
+
 .grid {
   display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  grid-gap: $gap;
+}
+
+
+
+@for $i from 1 through $total {
+  .grid-#{i} { grid-column-end: span #{i} };
 }

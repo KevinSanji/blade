@@ -9,9 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^9.3.1",
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2",
-    "sass": "^1.15.1"
-  }
+    "webpack": "^4.27.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "optionalDependencies": {}
 }
